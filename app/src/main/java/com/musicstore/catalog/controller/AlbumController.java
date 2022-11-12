@@ -1,7 +1,6 @@
 package com.musicstore.catalog.controller;
 
 import com.musicstore.catalog.model.Album;
-import com.musicstore.catalog.model.Label;
 import com.musicstore.catalog.repository.AlbumRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -40,11 +39,11 @@ public class AlbumController {
 
     @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void updateLabel(@PathVariable Integer id, @RequestBody Album album) {
+    public void updateAlbum(@PathVariable Integer id, @RequestBody Album album) {
         repo.save(album);
     }
 
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deleteLabel(@PathVariable Integer id) { repo.deleteById(id);}
+    public void deleteAlbum(@PathVariable Integer id) { repo.deleteById(id);}
 }
