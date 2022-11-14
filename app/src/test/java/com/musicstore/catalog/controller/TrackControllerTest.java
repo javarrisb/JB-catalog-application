@@ -36,7 +36,7 @@ public class TrackControllerTest {
 
 
     @Test
-    public void shouldReturnHttpStatus200AndArtistListOnGetAll() throws Exception {
+    public void shouldReturnHttpStatus200AndTrackListOnGetAll() throws Exception {
         Track outputTrack = new Track(1,1,"Let It Go", 180);
         List<Track> outputList = Arrays.asList(outputTrack);
         String outputJson = mapper.writeValueAsString(outputList);

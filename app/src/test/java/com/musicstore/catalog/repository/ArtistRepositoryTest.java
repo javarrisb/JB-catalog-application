@@ -81,7 +81,7 @@ public class ArtistRepositoryTest {
        Optional<Artist> artist1 = artistRepository.findById(artist.getId());
        artistRepository.deleteById(artist.getId());
 
-       assertTrue(artist1.isPresent());
+       assertFalse(artist1.isPresent());
    }
      **/
 

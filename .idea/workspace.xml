@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7da58dab-0222-4bf2-bb5d-62fbe98b7955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/musicstore/catalog/controller/TrackControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/musicstore/catalog/controller/TrackControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/musicstore/catalog/repository/ArtistRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/musicstore/catalog/repository/ArtistRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <recent name="com.musicstore.catalog.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MusicStoreCatalogApplication">
+  <component name="RunManager" selected="JUnit.ArtistRepositoryTest.deleteArtist">
     <configuration name="MusicStoreCatalogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.musicstore.catalog.MusicStoreCatalogApplication" />
       <module name="catalog" />
@@ -108,6 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArtistRepositoryTest.deleteArtist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.musicstore.catalog.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.musicstore.catalog.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.musicstore.catalog.repository.ArtistRepositoryTest" />
+      <option name="METHOD_NAME" value="deleteArtist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LabelControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog" />
       <extension name="coverage">
@@ -123,28 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrackControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="catalog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.musicstore.catalog.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.musicstore.catalog.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.musicstore.catalog.controller.TrackControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArtistRepositoryTest.deleteArtist" />
         <item itemvalue="Application.MusicStoreCatalogApplication" />
         <item itemvalue="JUnit.AlbumControllerTest" />
         <item itemvalue="JUnit.ArtistControllerTest" />
         <item itemvalue="JUnit.LabelControllerTest" />
-        <item itemvalue="JUnit.TrackControllerTest" />
       </list>
     </recent_temporary>
   </component>
